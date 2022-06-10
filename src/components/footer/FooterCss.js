@@ -8,6 +8,7 @@ const FooterCss = styled.footer`
     ul li{
         display: inline-block; 
         
+        /* links */
         a > *{
             color: var(--primary-color-blue);
             border: 1px solid var(--secondary-color-pale-blue);            
@@ -15,6 +16,12 @@ const FooterCss = styled.footer`
             height: 20px ;
             padding: .8em;
             border-radius: 50%;            
+
+            &:hover{
+                background-color: var(--primary-color-blue);
+                border: 1px solid var(--primary-color-blue);
+                color: #fff;
+            }
         }
     }
 

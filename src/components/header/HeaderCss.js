@@ -49,7 +49,13 @@ const HeaderCss = styled.header`
             color: #fff;
             width: 100%;
             margin-top: 1em; 
-            /* width: 9em; */
+            
+            &:hover{
+                background-color: #fff;
+                color: var(--primary-color-blue);
+                border: 1px solid var(--secondary-color-pale-blue);
+                cursor: pointer;
+            }
 
             @media screen and (min-width: 378px) {
                 width: 9em; 
