@@ -12,9 +12,9 @@ const FooterCss = styled.footer`
         a > *{
             color: var(--primary-color-blue);
             border: 1px solid var(--secondary-color-pale-blue);            
-            width: 20px; 
-            height: 20px ;
-            padding: .8em;
+            width: 15px; 
+            height: 15px ;
+            padding: .5em;
             border-radius: 50%;            
 
             &:hover{
@@ -32,7 +32,7 @@ const FooterCss = styled.footer`
     }
 
     p{
-        /* font-size: 80%; */
+        font-size: 70%;
         color: var(--neutral-color-gray);
         margin-top: 2em;
     }
