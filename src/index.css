@@ -12,7 +12,7 @@ body {
   --primary-color-blue: hsl(223, 87%, 63%);
   
   /* Secondary */
-  --secondary-color-pale-blue: hsl(223, 100%, 88%);
+  --secondary-color-pale-blue: rgb(194, 211, 255);
   --secondary-color-light-red: hsl(354, 100%, 66%);
 
   /* Neutral */
