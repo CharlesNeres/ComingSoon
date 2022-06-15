@@ -33,10 +33,8 @@ const HeaderCss = styled.header`
         /* position: relative; */
 
         input{            
-            border: 1px solid var(--secondary-color-pale-blue);
-            color: var(--secondary-color-pale-blue);
+            border: 1px solid ${props => props.validEmail ? "#c2d3ff" : "red"};
             width: 100%;
-            /* width: 20em; */
 
             @media screen and (min-width: 378px) {
                 width: 20em;
@@ -61,7 +59,11 @@ const HeaderCss = styled.header`
                 width: 9em; 
                 margin-left: .5em;
             }
-        }    
+        }   
+        
+        #msgError{
+            color: ${props => props.validEmail ? "green" : "red"};
+        }
     }
 
         
